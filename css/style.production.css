@@ -145,6 +145,16 @@ p {
     text-align: center;
 }
 
+.contact-input {
+    max-width: 400px;
+    width: 80%;
+    margin: 20px auto;
+    border-radius: 6px;
+    -webkit-box-shadow: 10px 5px 5px var(--primary-color);
+    box-shadow: 10px 5px 5px var(--primary-color);
+    background-color: var(--secondary-color);
+}
+
 /* start grid fallback */
 .grid__item {
     display: inline-block;
