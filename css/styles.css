@@ -15,7 +15,7 @@
 body {
     background-color: var(--background-color);
     color: var(--primary-color);
-    font-family: 'Istok Web', sans-serif;
+    font-family: 'Lato', sans-serif;
     font-weight: var(--normal);
     font-size: 16px;
     text-align: center;
@@ -25,11 +25,13 @@ body {
 }
 
 h1 {
+    font-family: 'Istok Web', sans-serif;
     font-size: 36px;
     font-weight: var(--bold);
 }
 
 h2 {
+    font-family: 'Istok Web', sans-serif;
     font-size: 24px;
     font-weight: var(--bold);
     background-color: var(--primary-color);

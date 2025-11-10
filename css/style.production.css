@@ -11,6 +11,8 @@
     --secondary-color: #f0f0f0;
     --dark-green: #a1c07f;
     --dark-grey: #2e2e2e;
+    --bold: 700;
+    --normal: 400;
 }
 
 * {
@@ -21,8 +23,8 @@
 body {
     background-color: var(--background-color);
     color: var(--primary-color);
-    font-family: 'Istok Web', sans-serif;
-    font-weight: 400;
+    font-family: 'Lato', sans-serif;
+    font-weight: var(--normal);
     font-size: 16px;
     text-align: center;
     line-height: 1.6;
@@ -31,13 +33,15 @@ body {
 }
 
 h1 {
+    font-family: 'Istok Web', sans-serif;
     font-size: 36px;
-    font-weight: 700;
+    font-weight: var(--bold);
 }
 
 h2 {
+    font-family: 'Istok Web', sans-serif;
     font-size: 24px;
-    font-weight: 700;
+    font-weight: var(--bold);
     background-color: var(--primary-color);
     color: var(--dark-grey);
     border-radius: 12px;
@@ -53,7 +57,7 @@ h2 {
 
 h3 {
     font-size: 18px;
-    font-weight: 700;
+    font-weight: var(--bold);
 }
 
 p {
