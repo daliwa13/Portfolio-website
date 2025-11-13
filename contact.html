@@ -76,7 +76,7 @@
             <a href="mailto:contact@idwebworks.com">Contact me</a>
         </div>
 
-        <form action="" method="post" id="contact-form">
+        <form action="/index.html" method="get" id="contact-form" onsubmit="alert('Thanks for reaching out')">
             <label class="std-label" for="email">Email*: </label><br>
             <input required type="email" id="email" name="email" placeholder="johndoe@xyz.com" class="contact-input"><br>
             <label class="std-label" for="phone">Phone: </label><br>
@@ -85,7 +85,7 @@
             <textarea required maxlength="240" id="message" name="message" rows="4" cols="30"
                 placeholder="Write your message here" class="contact-input"></textarea><br>
             <p>*Required fields</p>
-            <input type="submit" value="Send message">
+            <button class="button" type="submit">Send Message</button>
         </form>
 
     </main>
