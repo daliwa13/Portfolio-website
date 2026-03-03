@@ -1,7 +1,7 @@
 :root {
     --background-color: #444344;
     --primary-color: #7fc05c;
-    --secondary-color: #f0f0f0;
+    --secondary-color: #e2e1e1;
     --dark-green: #a1c07f;
     --dark-grey: #2e2e2e;
     --bold: 700;
@@ -120,6 +120,18 @@ a:active {
     text-align: center;
 }
 
+.card__secondary {
+    font-weight: bold;
+    background-color: var(--secondary-color);
+    color: var(--dark-grey);
+    border-radius: 12px;
+    padding: 3px 20px;
+    box-shadow: 10px 5px 5px var(--primary-color);
+    max-width: 80%;
+    margin: 0.3rem auto 1.5rem;
+    text-align: center;
+}
+
 .profile {
     max-width: 80%;
     margin: 0 auto;
@@ -144,17 +156,6 @@ a:active {
     margin-top: 20px;
 }
 
-.card__secondary {
-    font-weight: bold;
-    background-color: var(--secondary-color);
-    color: var(--dark-grey);
-    border-radius: 12px;
-    padding: 3px 20px;
-    box-shadow: 10px 5px 5px var(--primary-color);
-    max-width: 80%;
-    margin: 0.3rem auto 1.5rem;
-    text-align: center;
-}
 
 .contact-info {
     max-width: 480px;
@@ -405,7 +406,7 @@ td {
 
 }
 
-@media screen and (min-width: 481px) and (max-width: 768px) {
+@media screen and (max-width: 768px) {
     body {
         font-size: 0.85rem;
     }
@@ -423,12 +424,13 @@ td {
     }
 
     .profile__portrait {
-        max-width: 150px;
+        max-width: 200px;
         float: none;
         margin: 0 auto;
     }
 
     .button {
+        font-size: 0.85rem;
         padding: 6px;
         border-radius: 8px;
         border-bottom: 1.5px solid rgba(0, 0, 0, 0.3);
@@ -447,22 +449,6 @@ td {
         grid-row: auto / auto;
     }
 
-    body {
-        font-size: 0.55rem;
-    }
-
-    h1 {
-        font-size: 1.4rem;
-    }
-
-    h2 {
-        font-size: 1rem;
-    }
-
-    h3 {
-        font-size: 0.7rem;
-    }
-
     ul {
         padding-inline-start: 10px;
     }
@@ -472,7 +458,6 @@ td {
     }
 
     .button {
-        font-size: 0.55rem;
         padding: 5px;
         border-radius: 6px;
         border-bottom: 1px solid rgba(0, 0, 0, 0.3);
